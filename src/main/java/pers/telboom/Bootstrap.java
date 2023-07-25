@@ -18,7 +18,7 @@ public class Bootstrap {
         startBoom(driverConfig);
     }
     private static void startBoom(DriverConfig driverConfig)throws Exception {
-        String telephone = "110";
+        String telephone = "请问请问";
         File phonetxt=new File(FileSystemView.getFileSystemView().getHomeDirectory(),"\\call\\phone.txt");
         // 读取文件第一行
          telephone = Files.readAllLines(phonetxt.toPath()).get(0);
